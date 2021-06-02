@@ -7,4 +7,6 @@ setup(
     packages=[
         'python-dependency',
     ],
+    version_config=True,
+    setup_requires=['setuptools-git-versioning'],
 )
